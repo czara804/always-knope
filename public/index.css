@@ -1,0 +1,38 @@
+body {
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  animation-name: color-change;
+  animation-duration: 5s;
+}
+
+.container {
+  background-color: floralwhite;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 5%;
+  max-width: 70vw;
+  
+}
+.message {
+  font-size: 1.2em;
+  font-family: monospace;
+  color: navy;
+}
+
+h1 {
+  text-align: center;
+}
+
+@keyframes color-change {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: lightpink;}
+  100% {background-color: lightsalmon;}
+}
+
+#leslie-image {
+  width: 500px;
+  align-self: center;
+}
